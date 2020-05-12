@@ -59,7 +59,7 @@ app.listen(process.env.PORT || 3334, ()=>{
         .then((json) => {
             
             const salvador = json.filter( cidade => {
-              return cidade.state === 'BA' && cidade.city === 'Salvador/BA';
+              return cidade.ibgeID === 2927408;
             });
 
             const data = JSON.stringify(salvador);
@@ -95,7 +95,7 @@ app.listen(process.env.PORT || 3334, ()=>{
     // Dia em string;
     const dia_str = dias[dia-1]; 
 
-    if(horas === 7 && minutos === 0 && segundos === 0) {
+    if(horas === 7 && minutos ===  1 && segundos === 0) {
       console.log(`Dia [${dia_str}],  Horas [${horas}], Minutos [${minutos}], Segundos [${segundos}]`);
       load_file();
     }
