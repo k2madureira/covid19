@@ -1,3 +1,10 @@
+[![GitHub last commit](https://img.shields.io/github/last-commit/rocketseat/react-native-template-rocketseat-advanced.svg)](https://github.com/k2madureira/Gobarber_web/commits/master)
+[![NPM](https://img.shields.io/npm/l/react-native-template-rocketseat-advanced.svg)](https://choosealicense.com/licenses/mit)
+
+### Objective: 🤨
+
+Download information about the progress of the covid-19 pandemic in Brazil. Generating the data in spreadsheet format (xlsx) and JSON.
+
 ### Structure:
 
 ```
